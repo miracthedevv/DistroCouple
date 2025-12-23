@@ -1,62 +1,62 @@
 # DistroCouple 🚀
 
-DistroCouple is a modern desktop application built with **Electron**, **React**, and **Vite**. It leverages **Firebase** for backend services and provides a sleek interface for system monitoring and interaction.
+DistroCouple, **Electron**, **React** ve **Vite** kullanılarak geliştirilmiş modern bir masaüstü uygulamasıdır. Arka uç servisleri için **Firebase** kullanır ve sistem izleme ile etkileşim için şık bir arayüz sunar.
 
-## ✨ Features
+## ✨ Özellikler
 
-- **Modern UI**: Built with React and Framer Motion for smooth animations.
-- **System Information**: Real-time system monitoring using `systeminformation`.
-- **Firebase Integration**: Secure backend connection for data synchronization.
-- **Vite Powered**: Ultra-fast development and build process.
+- **Modern Kullanıcı Arayüzü**: Akıcı animasyonlar için React ve Framer Motion kullanılarak oluşturuldu.
+- **Sistem Bilgileri**: `systeminformation` kütüphanesi ile gerçek zamanlı sistem izleme.
+- **Firebase Entegrasyonu**: Veri senkronizasyonu için güvenli arka uç bağlantısı.
+- **Vite Gücü**: Çok hızlı geliştirme ve derleme süreci.
 
-## 🛠️ Getting Started
+## 🛠️ Başlangıç
 
-### Prerequisites
+### Önkoşullar
 
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
-- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
+- [Node.js](https://nodejs.org/) (v18 veya üstü sürüm önerilir)
+- [Yarn](https://yarnpkg.com/) veya [npm](https://www.npmjs.com/)
 
-### Installation
+### Kurulum
 
-1. Clone the repository:
+1. Depoyu klonlayın:
    ```bash
    git clone https://github.com/miracthedevv/DistroCouple.git
    cd DistroCouple
    ```
 
-2. Install dependencies:
+2. Bağımlılıkları yükleyin:
    ```bash
    yarn install
-   # or
+   # veya
    npm install
    ```
 
-3. Configure Firebase:
-   - Create a `src/renderer/firebase.ts` file.
-   - Add your Firebase configuration keys (this file is ignored by Git for security).
+3. Firebase Yapılandırması:
+   - `src/renderer/firebase.ts` dosyasını oluşturun.
+   - Kendi Firebase yapılandırma anahtarlarınızı ekleyin (bu dosya güvenlik nedeniyle Git tarafından göz ardı edilir).
 
-### Development
+### Geliştirme
 
-Run the development server:
+Geliştirme sunucusunu çalıştırın:
 ```bash
 npm run dev
-# and in another terminal
+# ve başka bir terminalde
 npm run electron:dev
 ```
 
-### Build
+### Derleme
 
-To package the application:
+Uygulamayı paketlemek için:
 ```bash
 npm run build
 ```
 
-## 📂 Project Structure
+## 📂 Proje Yapısı
 
-- `src/main`: Electron main process files.
-- `src/renderer`: React frontend components and styles.
-- `public`: Static assets.
+- `src/main`: Electron ana işlem (main process) dosyaları.
+- `src/renderer`: React ön uç bileşenleri ve stilleri.
+- `public`: Statik dosyalar.
 
-## 📄 License
+## 📄 Lisans
 
-This project is licensed under the ISC License.
+Bu proje ISC Lisansı ile lisanslanmıştır.
