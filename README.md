@@ -33,15 +33,15 @@ DistroCouple, **Electron**, **React** ve **Vite** kullanılarak geliştirilmiş 
 
 3. Firebase Yapılandırması:
    - `src/renderer/firebase.ts` dosyasını oluşturun.
-   - Kendi Firebase yapılandırma anahtarlarınızı ekleyin (bu dosya güvenlik nedeniyle Git tarafından göz ardı edilir).
+   - Kendi Firebase yapılandırma anahtarlarınızı ekleyin
 
 ### Geliştirme
 
 Geliştirme sunucusunu çalıştırın:
 ```bash
 npm run dev
-# ve başka bir terminalde
-npm run electron:dev
+# veya
+yarn dev
 ```
 
 ### Derleme
@@ -59,4 +59,4 @@ npm run build
 
 ## 📄 Lisans
 
-Bu proje ISC Lisansı ile lisanslanmıştır.
+Bu proje GPL v3.0 Lisansı ile lisanslanmıştır.
